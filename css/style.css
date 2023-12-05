@@ -1,0 +1,11 @@
+html {
+  box-sizing:border-box;
+  /* для правильного высчитывания размеров */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing:inherit;
+}
+/* передать всем нашим дочерним элементам  box-sizing:inherit озночает возьми у родителя*/
